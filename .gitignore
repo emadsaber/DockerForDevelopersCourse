@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/05/MyShopOnDocker/backend/.vs
+/05/MyShopOnDocker/backend/myshop.be/bin
+/05/MyShopOnDocker/backend/myshop.be/obj
+/05/MyShopOnDocker/frontend/myshop.fe/.vscode
