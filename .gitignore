@@ -6,3 +6,5 @@
 /05/MyShopOnDocker/backend/myshop.be/bin
 /05/MyShopOnDocker/backend/myshop.be/obj
 /05/MyShopOnDocker/frontend/myshop.fe/.vscode
+/05/**/obj
+/05/**/bin
