@@ -1,0 +1,23 @@
+name: my-store-stack
+version: '3.4'
+
+services:
+  mystore:
+    build:
+      context: MyStore
+      dockerfile: Dockerfile
+  mssql:
+    container_name: sql-server
+    image: mcr.microsoft.com/mssql/server:2017-latest
+    #image: mcr.microsoft.com/mssql/server:2017-CU11-ubuntu
+    restart: always
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: "P@ssw0rd@123"
+    ports:
+      - 1433:1433
+    volumes:
+      - my-volume:/var/opt/mssql
+      
+volumes:
+  my-volume:
