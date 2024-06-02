@@ -1,6 +1,0 @@
-@myshop.be_HostAddress = http://localhost:5294
-
-GET {{myshop.be_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
